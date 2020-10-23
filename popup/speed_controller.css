@@ -1,0 +1,46 @@
+html, body {
+    width: 120px;
+}
+
+#popup-content {
+}
+
+.header-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-wrapper > h1 {
+    margin: 0;
+}
+
+#current-speed-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+}
+
+#speed-modifiers, #time-modifiers {
+    display: flex;
+    align-items: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.button {
+    width: 30%;
+    margin: 3% auto;
+    padding: 4px;
+    text-align: center;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.note {
+    width: 95%;
+    text-align: center;
+}

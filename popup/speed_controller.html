@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="speed_controller.css"/>
+    <title>Courses BBB Speed</title>
+</head>
+
+<body>
+<div id="popup-content">
+    <div class="header-wrapper">
+        <h1>Speed</h1>
+    </div>
+
+    <div id="current-speed-wrapper">
+        <div>Current <strong id="current-speed">1.0</strong></div>
+    </div>
+
+    <div id="speed-modifiers">
+        <button type="button" id="slower" class="button control" name="slower">-</button>
+        <button type="button" id="normal" class="button control" name="normal">1</button>
+        <button type="button" id="faster" class="button control" name="faster">+</button>
+    </div>
+
+    <hr>
+
+    <div class="header-wrapper">
+        <h1>Time</h1>
+    </div>
+
+    <div id="time-modifiers">
+        <button type="button" id="back" class="button control" name="back">&lt;&lt;</button>
+        10s
+        <button type="button" id="forward" class="button control" name="forward">&gt;&gt;</button>
+    </div>
+</div>
+<div id="error-content" class="hidden">
+    <p></p>
+</div>
+<script type="module" src="speed_controller.js"></script>
+</body>
+
+</html>

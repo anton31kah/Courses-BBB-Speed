@@ -1,0 +1,8 @@
+{
+  "name": "courses-bbb-speed",
+  "version": "1.0.0",
+  "devDependencies": {
+    "@types/firefox-webext-browser": "^78.0.1"
+  },
+  "dependencies": {}
+}
